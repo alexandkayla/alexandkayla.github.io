@@ -6,20 +6,25 @@ lang: en
 
 <section class="hero">
   <h1>Alexandre & Kayla</h1>
-  <p>We are celebrating our marriage in Cannes this year, would you be part of it?</p>
-
-  <div class="counter">
-    <span id="days"></span> days to go.
-  </div>
-
-  <nav class="home-links">
-    <a href="{{ base.url }}/en/about">About</a>
-  </nav>
+  <br>
+  <p>We are celebrating our marriage in Cannes this year...</p>
+  <p>... Would you be part of it?</p>
+  <table class="counter-table">
+    <tr>
+      <th>Month</th>
+      <th>Day</th>
+      <th>Hour</th>
+      <th>Minute</th>
+      <th>Second</th>
+    </tr>
+    <tr>
+      <td><div class="number" id="months">0</div></td>
+      <td><div class="number" id="days">0</div></td>
+      <td><div class="number" id="hours">0</div></td>
+      <td><div class="number" id="minutes">0</div></td>
+      <td><div class="number" id="seconds">0</div></td>
+    </tr>
+  </table>
 </section>
 
-<script>
-  const weddingDate = new Date("2026-10-02");
-  const today = new Date();
-  const diff = Math.ceil((weddingDate - today) / (1000 * 60 * 60 * 24));
-  document.getElementById("days").textContent = diff;
-</script>
+<script src="{{ '/assets/js/counter.js' | relative_url }}"></script>

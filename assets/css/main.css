@@ -12,6 +12,7 @@
 @import url("./components/menu.css");
 @import url("./components/buttons.css");
 @import url("./components/language-switch.css");
+@import url("./components/counter.css");
 
 /* Pages */
 @import url("./pages/home.css");
