@@ -20,9 +20,7 @@
         Menu
       </summary>
       <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/contact/">Contact</a>
+        <a href="/{{ page.lang }}/about/">About</a>
       </nav>
     </details>
   </div>
@@ -36,13 +34,13 @@
 
   <div class="topbar-right">
     <a href="/contact/" class="contact">Contact</a>
-    <button class="lang">FR / EN</button>
+    <button class="lang" id="langSwitcher">EN</button>
   </div>
 </header>
 
 <main>
   {{ content }}
 </main>
-
+<script src="{{ '/assets/js/lang.js' | relative_url }}"></script>
 </body>
 </html>
