@@ -13,8 +13,6 @@ title: Home
 
   <nav class="home-links">
     <a href="/_posts/about">About</a>
-    <a href="/rsvp/">RSVP</a>
-    <a href="/travel/">Travel</a>
   </nav>
 </section>
 

@@ -11,23 +11,32 @@
 <header class="topbar">
   <div class="topbar-left">
     <details class="menu">
-      <summary>Menu</summary>
+      <summary>
+        <span class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        Menu
+      </summary>
       <nav>
         <a href="/">Home</a>
         <a href="/about/">About</a>
         <a href="/contact/">Contact</a>
       </nav>
     </details>
-
-    <button class="lang">FR / EN</button>
   </div>
 
-  <div class="topbar-center">
-    <span class="brand">Yes Oui Do</span>
-  </div>
+<div class="topbar-center">
+  <a href="/" class="brand-logo">
+    <img src="{{ '/assets/images/logo_white.png' | relative_url }}"
+         alt="Yes Oui Do">
+  </a>
+</div>
 
   <div class="topbar-right">
     <a href="/contact/" class="contact">Contact</a>
+    <button class="lang">FR / EN</button>
   </div>
 </header>
 

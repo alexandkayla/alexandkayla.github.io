@@ -1,6 +1,28 @@
 .menu summary {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   list-style: none;
+  padding: 0.25rem 0.5rem;
+  position: relative;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 14px;
+  margin-left: auto; /* pousse le burger à droite */
+}
+
+.burger span {
+  display: block;
+  height: 2px;
+  background: #fff; /* couleur des barres */
+  border-radius: 1px;
+  transition: all 0.3s ease;
 }
 
 .menu nav {
