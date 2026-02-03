@@ -13,7 +13,7 @@ lang: es
   </div>
 
   <nav class="home-links">
-    <a href="/_posts/about">Información</a>
+    <a href="/es/about">Información</a>
   </nav>
 </section>
 

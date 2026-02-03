@@ -13,12 +13,12 @@ lang: en
   </div>
 
   <nav class="home-links">
-    <a href="/_posts/about">About</a>
+    <a href="/en/about/">About</a>
   </nav>
 </section>
 
 <script>
-  const weddingDate = new Date("2026-06-12");
+  const weddingDate = new Date("2026-10-02");
   const today = new Date();
   const diff = Math.ceil((weddingDate - today) / (1000 * 60 * 60 * 24));
   document.getElementById("days").textContent = diff;

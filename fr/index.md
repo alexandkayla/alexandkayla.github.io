@@ -13,7 +13,7 @@ lang: fr
   </div>
 
   <nav class="home-links">
-    <a href="/posts/about">Informations</a>
+    <a href="/fr/about">Informations</a>
   </nav>
 </section>
 
