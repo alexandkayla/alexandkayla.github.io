@@ -1,0 +1,7 @@
+.lang {
+  opacity: 0.8;
+}
+
+.lang:hover {
+  opacity: 1;
+}

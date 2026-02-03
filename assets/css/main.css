@@ -1,0 +1,17 @@
+/* Base */
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/typography.css");
+
+/* Layout */
+@import url("./layout/header.css");
+@import url("./layout/footer.css");
+@import url("./layout/page.css");
+
+/* Components */
+@import url("./components/menu.css");
+@import url("./components/buttons.css");
+@import url("./components/language-switch.css");
+
+/* Pages */
+@import url("./pages/home.css");

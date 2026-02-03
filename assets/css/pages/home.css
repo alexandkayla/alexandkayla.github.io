@@ -1,0 +1,23 @@
+.hero {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(var(--overlay-dark), rgba(0,0,0,0.7)),
+    url("/assets/images/home_cover.JPG");
+
+  background-size: cover;
+  background-position: center;
+
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: var(--text-muted);
+}
