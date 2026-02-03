@@ -9,7 +9,7 @@ lang: en
   <p>We are celebrating our marriage in Cannes this year, would you be part of it?</p>
 
   <div class="counter">
-    <span id="days"></span> days to go
+    <span id="days"></span> days to go.
   </div>
 
   <nav class="home-links">
