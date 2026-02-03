@@ -13,7 +13,7 @@ lang: en
   </div>
 
   <nav class="home-links">
-    <a href="{{ base.url }}/en/about/">About</a>
+    <a href="{{ base.url }}/en/about">About</a>
   </nav>
 </section>
 
