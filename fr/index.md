@@ -25,6 +25,8 @@ lang: fr
       <td><div class="number" id="seconds">0</div></td>
     </tr>
   </table>
+  <br>
+  <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Participer</a>
 </section>
 
 <script src="{{ '/assets/js/counter.js' | relative_url }}"></script>

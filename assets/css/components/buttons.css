@@ -6,3 +6,22 @@ button,
   font: inherit;
   cursor: pointer;
 }
+
+.participate {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  color: black;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.gold-button:hover {
+  background: linear-gradient(145deg, #ffd700, #ffec8b);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
