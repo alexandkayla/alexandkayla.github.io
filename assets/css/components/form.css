@@ -1,0 +1,121 @@
+/* Wrapper qui prend tout l'écran et centre le formulaire */
+.fs-form-wrapper {
+  display: flex;
+  justify-content: center;  /* centre horizontalement */
+  align-items: center;      /* centre verticalement */
+  min-height: 100vh;        /* prend toute la hauteur de la fenêtre */
+  background: url('/path/to/your-background.jpg') no-repeat center center/cover; /* optionnel */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Carte du formulaire */
+.fs-form {
+  background: rgba(255, 255, 255, 0.9); /* blanc semi-transparent */
+  backdrop-filter: blur(10px); /* effet glass */
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+}
+
+/* Tous les champs identiques */
+.fs-form .fs-field,
+.fs-form .fs-checkbox-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.fs-form .fs-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs uniformes */
+.fs-form .fs-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.fs-form .fs-input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+}
+
+/* Checkbox */
+.fs-checkbox-wrapper {
+  display: flex;
+  align-items: center; /* centre verticalement la checkbox et le label */
+  font-size: 14px;
+}
+
+.fs-checkbox-wrapper .fs-label {
+  margin-left: 10px; /* espace entre checkbox et texte */
+}
+
+/* Bouton doré */
+.fs-form .fs-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  color: black;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.fs-form .fs-button:hover {
+  background: linear-gradient(145deg, #ffd700, #ffec8b);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.counter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.counter-btn {
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.counter-btn:hover {
+  background: linear-gradient(145deg, #ffd700, #ffec8b);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#counter {
+  width: 60px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 8px;
+}
