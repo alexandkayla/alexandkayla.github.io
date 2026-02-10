@@ -26,7 +26,7 @@ lang: en
     </tr>
   </table>
   <br>
-  <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Participate</a>
+  <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Respond here.</a>
 </section>
 
 <script src="{{ '/assets/js/counter.js' | relative_url }}"></script>
