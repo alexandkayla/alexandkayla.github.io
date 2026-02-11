@@ -8,7 +8,7 @@ lang: fr
   <h1>Alexandre & Kayla</h1>
   <br>
   <p>Nous célebrerons notre marriage à Cannes cette année...</p>
-  <p>... Et ce serait un plaisir de vous compter parmis nous!</p>
+  <p>... Et ce serait un plaisir de vous compter parmi nous!</p>
   <table class="counter-table">
     <tr>
       <th>Mois</th>
