@@ -9,6 +9,7 @@
 @import url("./layout/page.css");
 
 /* Components */
+@import url("./components/secure.css");
 @import url("./components/menu.css");
 @import url("./components/form.css");
 @import url("./components/buttons.css");
