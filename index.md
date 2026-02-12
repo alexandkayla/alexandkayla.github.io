@@ -32,17 +32,17 @@ lang: en
       <p>To finally found <b>home</b>.</p>
     </div>
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">Travel</a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">Venue</a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">Contact</a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">✈️ Travel 🚊</a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">🏰 Venue ⛲</a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">📩 Contact 💬</a>
     </div>
   </div>
   <br>
   <div class="flex-block">
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">Journey</a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">Things to do</a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">FAQs</a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">🎉 Journey 🥂</a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">📸 Things to do ⛱️</a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">🤔 FAQs ❓</a>
     </div>
     <div class="right-text">
       <p><i>Your presence would mean everything to us.</i></p>
