@@ -1,0 +1,35 @@
+.travel-accordion {
+  max-width: 800px;
+  margin: auto;
+}
+
+details {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+summary {
+  display: flex;
+  align-items: center;       /* centre verticalement texte et flèche */
+  justify-content: space-between; /* texte à gauche, flèche à droite */
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  list-style: none;
+  margin: 0;
+}
+
+summary::-webkit-details-marker {
+  display: none; /* supprime la flèche native */
+}
+
+summary::after {
+  content: "+";
+  transition: transform 0.2s;
+}
+
+/* quand ouvert */
+details[open] summary::after {
+  content: "−";
+}
+
