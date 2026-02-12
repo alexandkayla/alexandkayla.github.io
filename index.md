@@ -33,7 +33,7 @@ lang: en
     </div>
     <div class="vertical-btn">
       <a href="{{ base.url }}/{{ page.lang }}/travel" class="links"><h1>✈️ Travel 🚊</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🏰 Venue ⛲</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/venue" class="links"><h1>🏰 Venue ⛲</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📩 Contact 💬</h1></a>
     </div>
   </div>

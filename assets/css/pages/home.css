@@ -39,7 +39,10 @@
 .right-text {
   justify-content: space-between;
   text-align: right;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse;  
+  margin-left: auto;
+  text-align: right;
+  white-space: nowrap; /* empêche le retour à la ligne */
 }
 
 .vertical-btn {
