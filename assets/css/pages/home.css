@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center; /* centre verticalement texte/boutons */
-  gap: 20rem;
+  gap: 5rem;
 }
 
 .left-text {
