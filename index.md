@@ -20,7 +20,7 @@ lang: en
   <br>
   <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Join us in Cannes, France (2-3-4 October 2026)</a>
   <br>
-  <h3>on the october 2th for a weekend of beauty, meaning, and magic.</h3>
+  <h3>For a weekend of beauty, meaning, and magic.</h3>
   <br>
   <div class="flex-block">
     <div class="left-text">
