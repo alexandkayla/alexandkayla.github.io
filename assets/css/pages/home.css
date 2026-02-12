@@ -11,37 +11,3 @@
   padding: 20px;
   font-size: 1.2rem;
 }
-
-/* Compteur tableau aligné */
-.counter-table {
-  border-collapse: separate;       /* permet de gérer l'espacement entre cellules */
-  border-spacing: 15px 20px;       /* espace horizontal 15px, vertical 20px */
-  text-align: center;
-  table-layout: fixed;
-  width: 90%;                       /* tableau prend 90% de la largeur du conteneur */
-  max-width: 800px;                 /* largeur max pour grands écrans */
-  margin: auto;
-}
-
-.counter-table th {
-    font-size: 1.6rem;
-    color: #ffd700;
-    padding: 0px 0;
-}
-
-.counter-table td {
-    font-size: 1.7rem;
-    padding: 0px 0;
-}
-
-.counter-table .number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Courier New', monospace; /* police monospace pour alignement parfait */
-    font-variant-numeric: tabular-nums;    /* chiffres fixes */
-    background: rgba(0,0,0,0.3);
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    width: 100%;
-}

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem('siteLang');
   let lang = savedLang || navigator.language.slice(0,2);
-  lang = ['en','fr','es'].includes(lang) ? lang : 'en';
+  lang = ['en','fr'].includes(lang) ? lang : 'en';
   localStorage.setItem('siteLang', lang);
 
   const langSwitcher = document.getElementById('langSwitcher');
@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   langSwitcher.addEventListener('click', () => {
-    const nextLang = lang === 'en' ? 'fr' : lang === 'fr' ? 'es' : 'en';
+    const nextLang = lang === 'en' ? 'fr' : 'en';
     localStorage.setItem('siteLang', nextLang);
     langSwitcher.textContent = nextLang.toUpperCase();
 
     let path = location.pathname;
 
     // --- Home page ---
-    if(path === '/' || /^\/(en|fr|es)\/?$/.test(path)){
+    if(path === '/' || /^\/(en|fr)\/?$/.test(path)){
       if(nextLang === 'en'){
         window.location.href = '/';
       } else {
@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // --- Sous-pages ---
-    // Supprimer l'ancien préfixe si existant (/en/, /fr/, /es/)
-    path = path.replace(/^\/(en|fr|es)\//, '/');
+    // Supprimer l'ancien préfixe si existant (/en/, /fr/)
+    path = path.replace(/^\/(en|fr)\//, '/');
 
     // Ajouter le nouveau préfixe
     if(nextLang === 'en'){

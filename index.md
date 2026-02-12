@@ -20,23 +20,6 @@ lang: en
   <br>
   <h3>for a weekend of beauty, meaning, and magic.</h3>
   <br>
-  <table class="counter-table">
-    <tr>
-      <th>Month</th>
-      <th>Day</th>
-      <th>Hour</th>
-      <th>Minute</th>
-      <th>Second</th>
-    </tr>
-    <tr>
-      <td><div class="number" id="months">0</div></td>
-      <td><div class="number" id="days">0</div></td>
-      <td><div class="number" id="hours">0</div></td>
-      <td><div class="number" id="minutes">0</div></td>
-      <td><div class="number" id="seconds">0</div></td>
-    </tr>
-  </table>
-  <br>
   <p style="text-align: left;">This is more than a destination wedding.</p>
   <p>It is a tribute to heritage.</p>
   <p>To resilience.</p>
@@ -49,5 +32,3 @@ lang: en
   <p>For those who cannot join us in France, we look forward to celebrating together in the U.S. in 2027.</p>
   <br>
 </section>
-
-<script src="{{ '/assets/js/counter.js' | relative_url }}"></script>

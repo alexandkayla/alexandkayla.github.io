@@ -9,24 +9,6 @@ lang: fr
   <br>
   <p>Nous célebrerons notre marriage à Cannes cette année...</p>
   <p>... Et ce serait un plaisir de vous compter parmi nous!</p>
-  <table class="counter-table">
-    <tr>
-      <th>Mois</th>
-      <th>Jour</th>
-      <th>Heure</th>
-      <th>Minute</th>
-      <th>Seconde</th>
-    </tr>
-    <tr>
-      <td><div class="number" id="months">0</div></td>
-      <td><div class="number" id="days">0</div></td>
-      <td><div class="number" id="hours">0</div></td>
-      <td><div class="number" id="minutes">0</div></td>
-      <td><div class="number" id="seconds">0</div></td>
-    </tr>
-  </table>
   <br>
   <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Répondez ici</a>
 </section>
-
-<script src="{{ '/assets/js/counter.js' | relative_url }}"></script>
