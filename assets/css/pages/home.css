@@ -11,3 +11,38 @@
   padding: 20px;
   font-size: 1.2rem;
 }
+
+/* Bloc centré simple */
+.center-block {
+  text-align: center;
+  justify-content: center;
+}
+
+.center-block .btn {
+  margin-top: 10px;
+}
+
+/* Bloc flex horizontal */
+.flex-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* centre verticalement texte/boutons */
+  gap: 20rem;
+}
+
+.left-text {
+  justify-content: space-between;
+  text-align: left;
+}
+
+.right-text {
+  justify-content: space-between;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.vertical-btn {
+  display: flex;
+  text-align: center;
+  flex-direction: column !important;
+}
