@@ -1,0 +1,53 @@
+.mail-widget {
+  max-width: 420px;
+  margin: auto;
+  padding: 2rem;
+  background: #f8f8f800;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: inherit;
+}
+
+.mail-title {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.mail-widget input,
+.mail-widget textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.mail-widget textarea {
+  height: 140px; /* 👈 grande zone texte */
+  resize: vertical;
+}
+
+.mail-widget input:focus,
+.mail-widget textarea:focus {
+  outline: none;
+  border-color: #111;
+}
+
+.mail-send {
+  padding: 0.9rem;
+  border-radius: 999px;
+  border: none;
+  background: gold;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mail-send:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}

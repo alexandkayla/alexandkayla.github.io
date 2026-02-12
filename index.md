@@ -34,7 +34,7 @@ lang: en
     <div class="vertical-btn">
       <a href="{{ base.url }}/{{ page.lang }}/travel" class="links"><h1>✈️ Travel 🚊</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/venue" class="links"><h1>🏰 Venue ⛲</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📩 Contact 💬</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/contact" class="links"><h1>📩 Contact 💬</h1></a>
     </div>
   </div>
   <br>
@@ -42,7 +42,7 @@ lang: en
     <div class="vertical-btn">
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🎉 Journey 🥂</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📸 Things to do ⛱️</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🤔 FAQs ❓</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>❓ Questions/Answers 🤔</h1></a>
     </div>
     <div class="right-text">
       <p><i>Your presence would mean everything to us.</i></p>
