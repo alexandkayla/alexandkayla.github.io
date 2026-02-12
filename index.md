@@ -32,7 +32,7 @@ lang: en
       <p>To finally found <b>home</b>.</p>
     </div>
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">✈️ Travel 🚊</a>
+      <a href="{{ base.url }}/{{ page.lang }}/travel" class="links">✈️ Travel 🚊</a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">🏰 Venue ⛲</a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links">📩 Contact 💬</a>
     </div>
