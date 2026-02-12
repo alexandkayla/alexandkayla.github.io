@@ -7,13 +7,21 @@ lang: en
 <div class="hero">
     <div class="travel-accordion">
         <details>
-            <summary><h1>✈️ Arrive via Nice Côte d’Azur Airport (NCE)</h1></summary>
+            <summary><h1>⚠️ Before everything</h1></summary>
             <div class="accordion-content">
                 <div class="flex-block">
                     <div class="left-text">
                         <p>A valid passport is required.</p>
                         <p>Guests traveling from outside Europe may need additional travel authorization.</p>
-                        <br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary><h1>✈️ Arrive via Nice Côte d’Azur Airport (NCE)</h1></summary>
+            <div class="accordion-content">
+                <div class="flex-block">
+                    <div class="left-text">
                         <h2>The wedding will take place in Cannes.</h2>
                         <p>Train from Nice to Cannes is about 20 minutes</p> 
                         <p><a href="https://maps.app.goo.gl/M7UFReyke2ad5MYz7" class="links">Train station</a> is in front of the airport.</p>
@@ -23,7 +31,7 @@ lang: en
             </div>
         </details>
         <details>
-            <summary><h1>🚆 Transit to Cannes <i>downtown</i></h1></summary>
+            <summary><h1>🚆 Transit to Cannes</h1></summary>
             <div class="accordion-content">
                 <div class="flex-block">
                     <div class="flex-block">
