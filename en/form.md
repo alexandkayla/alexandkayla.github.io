@@ -32,7 +32,7 @@ lang: en
                     value="YES"
                 />
                 <label class="fs-label" for="fr-celebration" style="margin-left: 10px;">
-                Will be able to assist
+                Will be able to attend.
                 </label>
             </div>
         </div>
@@ -69,7 +69,7 @@ lang: en
             </div>
         </div>
         <div class="fs-button-group">
-            <button class="fs-button" type="submit">Subscribe</button>
+            <button class="fs-button" type="submit">Submit</button>
         </div>
         </form>
     </div>
