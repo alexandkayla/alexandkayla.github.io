@@ -18,8 +18,9 @@ lang: en
   <br>
   <h3>Now, we invite you to celebrate that love with us on the French Riviera.</h3>
   <br>
-  <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Join us in Cannes, France (2-3-4 October 2026)</a>
+  <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">RSVP by clicking here</a>
   <br>
+  <h3>Join us in Cannes, France (2-3-4 October 2026)</h3>
   <h3>For a weekend of beauty, meaning, and magic.</h3>
   <br>
   <div class="flex-block">
