@@ -10,13 +10,13 @@ lang: en
   <h2>Bienvenue • Bem-vindos • Welcome • Bienvenido</h2>
   <br>
   <div class="center-block">
-    <p>Our story was written across oceans, cultures, and languages —</p>
-    <p>a Black girl with boundless dreams,</p>
-    <p>a Portuguese soul shaped by Europe,</p>
-    <p>— two worlds meeting and choosing each other, again and again.</p>
+    <p><i>The right person, At the right time.</i></p>
+    <p><i>Maybe with the wrong script, But surely on the write line.</i></p>
+    <p><i>An unexpected poem, Which heavenly rhyme,</i></p>
+    <p><i>And a piece of you, That will ever be mine.</i></p>
   </div>
   <br>
-  <h3>Now, we invite you to celebrate that love with us on the French Riviera.</h3>
+  <h3>We invite you to celebrate our wedding with us on the French Riviera.</h3>
   <br>
   <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">RSVP by clicking here</a>
   <br>

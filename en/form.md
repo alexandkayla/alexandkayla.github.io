@@ -82,7 +82,7 @@ lang: en
                 </div>
             </div>
             <div class="form-step" data-step="end">
-                <button class="fs-button" type=button>Thanks!</button>
+                <button class="fs-button" type=button>Thanks you!</button>
             </div>
         </form>
     </div>
