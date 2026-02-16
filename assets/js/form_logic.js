@@ -9,7 +9,7 @@ const attyes = document.getElementById("btn-attyes");
 const attno = document.getElementById("btn-attno");
 
 const phoneInput = document.getElementById("phone");
-const mailInput = document.getElementById("mail");
+const emailInput = document.getElementById("email");
 
 const usyes = document.getElementById("btn-usyes");
 const usno = document.getElementById("btn-usno");
@@ -32,8 +32,8 @@ phoneInput.addEventListener("input", () => {
   phoneInput.style.borderColor = "#ccc";
 });
 
-mailInput.addEventListener("input", () => {
-  mailInput.style.borderColor = "#ccc";
+emailInput.addEventListener("input", () => {
+  emailInput.style.borderColor = "#ccc";
 });
 
 usyes.addEventListener("click", () => {
@@ -100,9 +100,9 @@ step2Next.addEventListener("click", () => {
         phoneInput.style.borderColor = "red";
         phoneInput.focus();
     }
-    else if(mailInput.value.trim() === "") {
-        mailInput.style.borderColor = "red";
-        mailInput.focus();
+    else if(emailInput.value.trim() === "") {
+        emailInput.style.borderColor = "red";
+        emailInput.focus();
     }
     else
     {

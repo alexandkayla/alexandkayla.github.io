@@ -25,7 +25,7 @@ lang: en
                     />
                 </div>
                 <div class="fs-field">
-                    <label class="fs-label">Will you be able to attend?</label>
+                    <label class="fs-label">Will you be able to attend in France?</label>
                     <div class="choice-group">
                         <input type="radio" id="attend-yes" name="attendance" value="YES" required>
                         <label for="attend-yes" class="choice-btn" id="btn-attyes">Yes</label>
@@ -43,7 +43,7 @@ lang: en
                     <div id="guests-wrapper">
                         <!-- Les champs invités seront ajoutés ici -->
                     </div>
-                    <button type="button" id="add-guest" class="counter-btn">+ Add guest</button>
+                    <button type="button" id="add-guest" class="fs-button">+ Add guest</button>
                 </div>
                 <div class="fs-field">
                     <label class="fs-label" for="phone">Phone Number</label>
@@ -55,7 +55,16 @@ lang: en
                     />
                 </div>
                 <div class="fs-field">
-                    <label class="fs-label" for="mail">Mail address</label>
+                    <label class="fs-label" for="email">Email address</label>
+                    <input
+                    class="fs-input"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    />
+                </div>
+                <div class="fs-field">
+                    <label class="fs-label" for="mail"><i>Mail address (optionnal)</i></label>
                     <input
                     class="fs-input"
                     id="mail"

@@ -10,10 +10,10 @@ lang: en
   <h2>Bienvenue • Bem-vindos • Welcome • Bienvenido</h2>
   <br>
   <div class="center-block">
-    <p><i>The right person, At the right time.</i></p>
-    <p><i>Maybe with the wrong script, But surely on the write line.</i></p>
-    <p><i>An unexpected poem, Which heavenly rhyme,</i></p>
-    <p><i>And a piece of you, That will ever be mine.</i></p>
+    <p><i>The right person,</i></p> 
+    <p><i>At the right time.</i></p>
+    <p><i>Maybe with the wrong script,</i></p>
+    <p><i>But surely on the right line.</i></p>
   </div>
   <br>
   <h3>We invite you to celebrate our wedding with us on the French Riviera.</h3>
@@ -22,6 +22,7 @@ lang: en
   <br>
   <h3>Join us in Cannes, France (2-3-4 October 2026)</h3>
   <h3>For a weekend of beauty, meaning, and magic.</h3>
+  <h3>Please RSVP by June 8th.</h3>
   <br>
   <div class="flex-block">
     <div class="left-text">
