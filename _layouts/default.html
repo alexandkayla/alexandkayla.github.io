@@ -75,7 +75,11 @@
   <div class="footer-content">
 
     <p class="footer-title">
-      Our soundtrack 🎶
+        {% if page.lang == "en" %}
+          <a href="{{ base.url }}/">Our soundtrack 🎶</a>
+        {% else %}
+          <a href="{{ base.url }}/fr/">Notre playlist 🎶</a>
+        {% endif %}
     </p>
 
     <div class="footer-player">
@@ -89,7 +93,11 @@
     </div>
 
     <p class="footer-credit">
-      © 2026 — Made with love
+        {% if page.lang == "en" %}
+          <a href="{{ base.url }}/">2026 — Made with love</a>
+        {% else %}
+          <a href="{{ base.url }}/fr/">2026 - Fait avec amour</a>
+        {% endif %}
     </p>
 
   </div>
