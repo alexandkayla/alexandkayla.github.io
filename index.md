@@ -7,7 +7,7 @@ lang: en
 <div class="hero">
   <h1>✨ A Love Without Borders</h1>
   <br>
-  <h2>Bienvenue • Bem-vindos • Welcome • Bienvenido</h2>
+  <h2>Bienvenue • Bemvindo • Welcome • Bienvenido</h2>
   <br>
   <div class="center-block">
     <p><i>The right person,</i></p> 
