@@ -11,68 +11,82 @@ lang: en
         class="fs-form"
         target="_top"
         method="POST"
+        id="multiStepForm"
         >
-        <div class="fs-field">
-            <label class="fs-label" for="name">Full Name</label>
-            <input
-            class="fs-input"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            required
-            />
-        </div>
-        <div class="fs-checkbox-field col-span-full">
-            <div class="fs-checkbox-wrapper" style="display: flex; align-items: center;">
-                <input
-                    class="fs-checkbox"
-                    id="fr-celebration"
-                    name="fr-celebration"
-                    type="checkbox"
-                    value="YES"
-                />
-                <label class="fs-label" for="fr-celebration" style="margin-left: 10px;">
-                Will be able to attend.
-                </label>
+            <div class="form-step active" data-step="1">
+                <div class="fs-field">
+                    <label class="fs-label" for="name">Full Name</label>
+                    <input
+                    class="fs-input"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                    />
+                </div>
+                <div class="fs-field">
+                    <label class="fs-label">Will you be able to attend?</label>
+                    <div class="choice-group">
+                        <input type="radio" id="attend-yes" name="attendance" value="YES" required>
+                        <label for="attend-yes" class="choice-btn" id="btn-attyes">Yes</label>
+                        <input type="radio" id="attend-no" name="attendance" value="NO">
+                        <label for="attend-no" class="choice-btn" id="btn-attno">No</label>
+                    </div>
+                </div>
+                <div class="fs-button-group">
+                    <button class="fs-button" id="step1Next" type=button>Next</button>
+                </div>
             </div>
-        </div>
-        <div class="fs-field">
-            <label class="fs-label" for="counter">Number of Guests</label>
-            <div class="counter-wrapper">
-                <button type="button" class="counter-btn" id="decrement">-</button>
-                <input type="text" id="counter" name="counter" value="0" readonly />
-                <button type="button" class="counter-btn" id="increment">+</button>
+            <div class="form-step" data-step="yes">
+                <div class="fs-field">
+                    <label class="fs-label">Guests</label>
+                    <div id="guests-wrapper">
+                        <!-- Les champs invités seront ajoutés ici -->
+                    </div>
+                    <button type="button" id="add-guest" class="counter-btn">+ Add guest</button>
+                </div>
+                <div class="fs-field">
+                    <label class="fs-label" for="phone">Phone Number</label>
+                    <input
+                    class="fs-input"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    />
+                </div>
+                <div class="fs-field">
+                    <label class="fs-label" for="mail">Mail address</label>
+                    <input
+                    class="fs-input"
+                    id="mail"
+                    name="mail"
+                    placeholder="Enter your mail address"
+                    />
+                </div>
+                <div class="fs-button-group">
+                    <button class="fs-button" id="step2Next" type=button>Next</button>
+                </div>
             </div>
-        </div>
-        <div class="fs-field">
-            <label class="fs-label" for="phone">Phone Number</label>
-            <input
-            class="fs-input"
-            id="phone"
-            name="phone"
-            placeholder="Enter your phone number"
-            required
-            />
-        </div>
-        <div class="fs-checkbox-field col-span-full">
-            <div class="fs-checkbox-wrapper" style="display: flex; align-items: center;">
-                <input
-                    class="fs-checkbox"
-                    id="us-celebration"
-                    name="us-celebration"
-                    type="checkbox"
-                    value="YES"
-                />
-                <label class="fs-label" for="us-celebration" style="margin-left: 10px;">
-                Interested in the US celebration in 2027
-                </label>
+            <div class="form-step" data-step="no">
+                <div class="fs-field">
+                    <label class="fs-label">Interested in the US celebration in 2027</label>
+                    <div class="choice-group">
+                        <input type="radio" id="us-yes" name="attendance-us" value="YES" required>
+                        <label for="us-yes" class="choice-btn" id="btn-usyes">Yes</label>
+                        <input type="radio" id="us-no" name="attendance-us" value="NO">
+                        <label for="us-no" class="choice-btn" id="btn-usno">No</label>
+                    </div>
+                </div>
+                <div class="fs-button-group">
+                    <button class="fs-button" type="submit" id="submit">Submit</button>
+                </div>
             </div>
-        </div>
-        <div class="fs-button-group">
-            <button class="fs-button" type="submit">Submit</button>
-        </div>
+            <div class="form-step" data-step="end">
+                <button class="fs-button" type=button>Thanks!</button>
+            </div>
         </form>
     </div>
 </section>
 
 <script src="{{ '/assets/js/guests.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/form_logic.js' | relative_url }}"></script>

@@ -55,17 +55,6 @@
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
 }
 
-/* Checkbox */
-.fs-checkbox-wrapper {
-  display: flex;
-  align-items: center; /* centre verticalement la checkbox et le label */
-  font-size: 14px;
-}
-
-.fs-checkbox-wrapper .fs-label {
-  margin-left: 10px; /* espace entre checkbox et texte */
-}
-
 /* Bouton doré */
 .fs-form .fs-button {
   display: inline-block;
@@ -86,36 +75,68 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
 
-.counter-wrapper {
+.guest-field {
   display: flex;
   align-items: center;
   gap: 10px;
-  justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-
-.counter-btn {
-  padding: 10px 20px;
+.guest-field input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+.guest-field button {
+  padding: 8px 12px;
+  border-radius: 12px;
   background: linear-gradient(145deg, #d4af37, #ffd700);
   border: none;
-  border-radius: 25px;
-  font-size: 18px;
-  font-weight: bold;
   cursor: pointer;
-  transition: all 0.2s ease;
+  font-weight: bold;
+}
+.guest-field button:hover {
+  background: #ffd700;
 }
 
-.counter-btn:hover {
-  background: linear-gradient(145deg, #ffd700, #ffec8b);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+.form-step {
+  display: none;
 }
 
-#counter {
-  width: 60px;
+.form-step.active {
+  display: block;
+}
+
+.choice-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.choice-group input[type="radio"] {
+  display: none;
+}
+
+.choice-btn {
+  flex: 1;
   text-align: center;
-  font-size: 18px;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 8px;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #d4af37;
+  transition: all 0.2s ease;
+  background: white;
+  color: black;
+}
+
+.choice-btn:hover {
+  background: #fff8dc;
+}
+
+/* Etat sélectionné */
+.choice-group input[type="radio"]:checked + .choice-btn {
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  color: black;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
