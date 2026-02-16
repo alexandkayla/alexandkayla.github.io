@@ -28,9 +28,9 @@ lang: fr
       <p>A la frontière entre deux mondes.</p>
     </div>
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/travel" class="links"><h1>✈️ Voyage 🚊</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/venue" class="links"><h1>🏰 Lieu du mariage ⛲</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/contact" class="links"><h1>📩 Contact 💬</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>✈️ Voyage 🚊</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🏰 Lieu du mariage ⛲</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📩 Contact 💬</h1></a>
     </div>
   </div>
   <br>
