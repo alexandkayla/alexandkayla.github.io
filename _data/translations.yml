@@ -1,0 +1,17 @@
+en:
+  home: "Home"
+  travel: "Travel"
+  venue: "Venue"
+  contact: "Contact"
+  journey: "Journey"
+  todo: "Things to do"
+  faq: "Questions / Answers"
+
+fr:
+  home: "Accueil"
+  travel: "Voyage"
+  venue: "Lieu"
+  contact: "Contact"
+  journey: "Parcours"
+  todo: "À faire"
+  faq: "Questions / Réponses"
