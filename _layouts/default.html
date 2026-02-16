@@ -21,6 +21,11 @@
         Menu
       </summary>
       <nav>
+        {% if page.lang == "en" %}
+          <a href="{{ base.url }}/">Home</a>
+        {% else %}
+          <a href="{{ base.url }}/fr/">Accueil</a>
+        {% endif %}
         <a href="{{ base.url }}/{{ page.lang }}/travel">Travel</a>
         <a href="{{ base.url }}/{{ page.lang }}/venue">Venue</a>
         <a href="{{ base.url }}/{{ page.lang }}/contact">Contact</a>
