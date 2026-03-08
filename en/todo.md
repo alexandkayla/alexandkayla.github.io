@@ -1,168 +1,151 @@
 ---
+layout: default
+title: Things to do
+lang: en
 ---
-
-This is a very good idea — for a destination wedding, guests love receiving a few sightseeing suggestions so they can enjoy the weekend. The ideal approach is to offer **3–5 simple ideas**, mixing:
-
-* an easy walk in Cannes
-* a nature excursion
-* one or two small towns on the French Riviera.
-
-Here is a selection that’s easy to include in a wedding website or a small guide for your guests.
-
----
-
-## 🌴 Activity Ideas for Your Guests in Cannes
-
-### Iconic Walk: La Croisette & Old Cannes
-
-For guests staying only a short time, this is the must-do walk.
-
-**Suggestions:**
-
-* Walk along **La Croisette**, the famous seaside boulevard lined with palm trees and luxury hotels.
-* Take a photo on the steps of the **Palais des Festivals et des Congrès**.
-* Visit the old district **Le Suquet**, with its medieval streets and panoramic view over the bay.
-* Stop by **Marché Forville** to taste Provençal products.
-
-💡 **Ideal duration:** 2–3 hours.
-
----
-
-### Nature Excursion: The Lérins Islands
-
-Just **15 minutes by boat**, this is one of the best excursions from Cannes.
-
-The two main islands:
-
-**Île Sainte-Marguerite**
-
-* Nature and quiet coves
-* Historic fort and museum (former prison of the *Man in the Iron Mask*)
-
-**Île Saint-Honorat**
-
-* Abbey inhabited by monks since the 5th century
-* Vineyards and peaceful walking paths
-
-💡 Perfect for:
-
-* swimming
-* snorkeling
-* picnicking
-
-**Duration:** half day or full day.
-
----
-
-### Provençal Village: Saint-Paul-de-Vence
-
-One of the most beautiful villages on the French Riviera, about **45 minutes away**.
-
-Why visit:
-
-* Medieval streets
-* Art galleries
-* Beautiful views over the Provençal countryside
-
-It’s a very **romantic and photogenic place**, often loved by guests visiting the region for the first time.
-
----
-
-### Elegant Coastal Town: Antibes
-
-Only **10–15 minutes by train**, making it a perfect short excursion.
-
-Things to do:
-
-* Wander through the **old town**
-* Visit the **Picasso Museum**
-* Walk along the **seafront ramparts**
-
-Atmosphere: **more authentic and relaxed than Cannes.**
-
----
-
-### Spectacular Day Trip: Monaco & Èze
-
-Great for guests staying a little longer.
-
-A classic itinerary:
-
-* The **hilltop village of Èze**
-* **Monaco** (Prince’s Palace, casino, harbor)
-
-💡 Very popular for a **day trip**.
-
----
-
-# 🌊 Best Things to Do in Nice (Near the Airport)
-
-### Iconic Walk: Promenade des Anglais
-
-The simplest and most emblematic walk in the city.
-
-A **7 km seaside boulevard** stretching from the airport to the historic center.
-
-* Pebble beaches
-* Palm trees
-* Legendary hotels
-
-Ideal for:
-
-* walking
-* renting a bike
-* having a drink by the sea
-
-💡 Many guests enjoy doing this walk **right after arriving**.
-
-**Duration:** 1–2 hours.
-
----
-
-### Old Town Nice (Vieux-Nice)
-
-The **most charming neighborhood** in the city.
-
-Things to do:
-
-* Wander through colorful narrow streets
-* Visit the **Cours Saleya Market**
-* Try local specialties such as **socca** or **pan bagnat**
-
-Nice’s city center is also organized around **Place Masséna**, the large central square near the waterfront and the old town.
-
-💡 Very easy to reach from the airport via **direct tram line 2**.
-
----
-
-### Spectacular View: Castle Hill (Colline du Château)
-
-The **best viewpoint on the French Riviera**.
-
-A nearly **20-hectare park** overlooking the city with:
-
-* Incredible views over the **Bay of Angels**
-* Rooftops of Old Nice
-* A waterfall and gardens
-
-💡 **Perfect at sunset.**
-
-**Duration:** ~1 hour.
-
----
-
-### Easy Nature Near the Airport: Parc Phoenix
-
-If some guests have a few hours before their flight, this is perfect.
-
-* **7-hectare botanical park** near the airport
-* One of the **largest tropical greenhouses in Europe**
-* Flamingos, turtles, Mediterranean gardens
-
-💡 Accessible **on foot or by tram from the airport**.
-
-**Duration:** 1–2 hours.
-
----
-
-If you want, I can also help you **turn this into a polished “Travel Guide for Guests” page for your wedding website** (shorter, more elegant wording, and organized like a mini itinerary).
+      
+<div class="hero">
+    <div class="travel-accordion">
+        <details>
+            <summary><h1>🌴 Activity Ideas for Your Guests in Cannes</h1></summary>
+            <div class="accordion-content">
+                <div class="flex-block">
+                    <div class="left-text">
+                        <div class="image-row">
+                            <img src="/assets/images/todo/croisette1.jpg">
+                            <img src="/assets/images/todo/croisette3.jpg">
+                            <img src="/assets/images/todo/croisette2.webp">
+                        </div>
+                        <br>
+                        <h2>Iconic Walk: La Croisette & Old Cannes</h2>
+                        <p><b>Suggestions:</b></p>
+                        <ul>
+                            <li>Walk along <b>La Croisette</b>, the famous seaside boulevard lined with palm trees and luxury hotels. </li>
+                            <li>Take a photo on the steps of the <b>Palais des Festivals et des Congrès</b>.</li>
+                            <li>Visit the old district <b>Le Suquet</b>, with its medieval streets and panoramic view over the bay.</li>
+                            <li>Stop by <b>Marché Forville</b> to taste Provençal products.</li>
+                        </ul>
+                        <p><b>Ideal duration:</b> 2–3 hours.</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="image-row">
+                            <img src="/assets/images/todo/lehrins1.jpg">
+                            <img src="/assets/images/todo/lehrins2.webp">
+                        </div>
+                        <h2>Nature Excursion: The Lérins Islands</h2>
+                        <p>Just <b>15 minutes by boat</b>, this is one of the best excursions from Cannes.</p>
+                        <p>The two main islands:</p>
+                        <ul>
+                            <li><b>Île Sainte-Marguerite</b></li>
+                            <ul>
+                                <li>Nature and quiet coves</li>
+                                <li>Historic fort and museum (former prison of the *Man in the Iron Mask*)</li>
+                            </ul>
+                            <li><b>Île Saint-Honorat</b></li>
+                            <li>Abbey inhabited by monks since the 5th century</li>
+                            <li>Vineyards and peaceful walking paths</li>
+                        </ul>
+                        <br>
+                        <p>💡 Perfect for:</p>
+                        <ul>
+                            <li>swimming</li>
+                            <li>snorkeling</li>
+                            <li>picnicking</li>
+                        </ul>
+                        <p><b>Duration:</b> half day or full day.</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <h2>Provençal Village: Saint-Paul-de-Vence</h2>
+                        <p>One of the most beautiful villages on the French Riviera, about <b>45 minutes away</b>. Why visit:</p>
+                        <ul>
+                            <li>Medieval streets</li>
+                            <li>Art galleries</li>
+                            <li>Beautiful views over the Provençal countryside</li>
+                        </ul>
+                        <p>It’s a very <b>romantic and photogenic place</b>, often loved by guests visiting the region for the first time.</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <h2>Elegant Coastal Town: Antibes</h2>
+                        <p>Only <b>10–15 minutes by train</b>, making it a perfect short excursion. Things to do:</p>
+                        <ul>
+                            <li>Wander through the <b>old town</b></li>
+                            <li>Visit the <b>Picasso Museum</b></li>
+                            <li>Walk along the <b>seafront ramparts</b></li>
+                        </ul>
+                        <p>Atmosphere: <b>more authentic and relaxed than Cannes.</b></p>
+                        <br>
+                        <hr>
+                        <br>
+                        <h2>Spectacular Day Trip: Monaco & Èze</h2>
+                        <p>Great for guests staying a little longer; A classic itinerary:</p>
+                        <ul>
+                            <li>The <b>hilltop village of Èze</b></li>
+                            <li><b>Monaco</b> (Prince’s Palace, casino, harbor)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary><h1>🌊 Best Things to Do in Nice (Near the Airport)</h1></summary>
+            <div class="accordion-content">
+                <div class="flex-block">
+                    <h2>Iconic Walk: Promenade des Anglais</h2>
+                    <p>The simplest and most emblematic walk in the city.</p>
+                    <p>A <b>7 km seaside boulevard</b> stretching from the airport to the historic center:</p>
+                    <ul>
+                        <li>Pebble beaches</li>
+                        <li>Palm trees</li>
+                        <li>Legendary hotels</li>
+                    </ul>
+                    <p>Ideal for:</p>
+                    <ul>
+                        <li>walking</li>
+                        <li>renting a bike</li>
+                        <li>having a drink by the sea</li>
+                    </ul>
+                    <p><b>Duration:</b> 1–2 hours.</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <h2>Old Town Nice (Vieux-Nice)</h2>
+                    <p>The <b>most charming neighborhood</b> in the city. Things to do:</p>
+                    <ul>
+                        <li>Wander through colorful narrow streets</li>
+                        <li>Visit the <b>Cours Saleya Market</b></li>
+                        <li>Try local specialties such as <b>socca</b> or <b>pan bagnat</b></li>
+                    </ul>
+                    <p>Nice’s city center is also organized around <b>Place Masséna</b>, the large central square near the waterfront and the old town.</p>
+                    <p>💡 Very easy to reach from the airport via <b>direct tram line 2</b>.</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <h2>Spectacular View: Castle Hill (Colline du Château)</h2>
+                    <p>The <b>best viewpoint on the French Riviera</b>. A nearly <b>20-hectare park</b> overlooking the city with:</p>
+                    <ul>
+                        <li>Incredible views over the <b>Bay of Angels</b></li>
+                        <li>Rooftops of Old Nice</li>
+                        <li>A waterfall and gardens</li>
+                    </ul>
+                    <p>💡 <b>Perfect at sunset.</b></p>
+                    <p><b>Duration:</b> ~1 hour.</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <h2>Easy Nature Near the Airport: Parc Phoenix</h2>
+                    <p>If some guests have a few hours before their flight, this is perfect.</p>
+                    <ul>
+                        <li><b>7-hectare botanical park</b> near the airport</li>
+                        <li>One of the <b>largest tropical greenhouses in Europe</b></li>
+                        <li>Flamingos, turtles, Mediterranean gardens</li>
+                    </ul>
+                    <p>💡 Accessible <b>on foot or by tram from the airport</b>.</p>
+                    <p><b>Duration:</b> 1–2 hours.</p>
+                </div>
+            </div>
+        <details>
+    </div>
+</div>
