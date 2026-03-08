@@ -43,7 +43,7 @@ lang: fr
     <div class="right-text">
       <p><i>Nous serons très heureux de vous compter parmi nous</i></p>
       <p><i>Pour ceux qui ne pourraient pas nous rejoindre à cette date</i></p>
-      <p><i>Une célébration sera organisé aux Etats-Unis dans un futur proche</i></p>
+      <p><i>Une célébration sera organisée aux Etats-Unis dans un futur proche</i></p>
       <p><i>Des bisous, paix sur vous et vos proches.</i></p>
     </div>
   </div>

@@ -78,7 +78,7 @@ lang: en
             </div>
             <div class="form-step" data-step="no">
                 <div class="fs-field">
-                    <label class="fs-label">Intéressé par la célébration aux USA en 2027</label>
+                    <label class="fs-label">Intéressé par la célébration aux USA en 2027?</label>
                     <div class="choice-group">
                         <input type="radio" id="us-yes" name="attendance-us" value="YES" required>
                         <label for="us-yes" class="choice-btn" id="btn-usyes">Oui</label>
