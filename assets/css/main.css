@@ -15,7 +15,7 @@
 @import url("./components/buttons.css");
 @import url("./components/language-switch.css");
 @import url("./components/counter.css");
-@import url("./components/evantail.css");
+@import url("./components/slider.css");
 
 /* Pages */
 @import url("./pages/home.css");

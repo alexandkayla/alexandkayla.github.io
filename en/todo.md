@@ -7,17 +7,21 @@ lang: en
 <div class="hero">
     <div class="travel-accordion">
         <details>
-            <summary><h1>🌴 Activity Ideas for Your Guests in Cannes</h1></summary>
+            <summary><h1>🌴 Activity Ideas in Cannes</h1></summary>
             <div class="accordion-content">
                 <div class="flex-block">
                     <div class="left-text">
-                        <div class="image-row">
-                            <img src="/assets/images/todo/croisette1.jpg">
-                            <img src="/assets/images/todo/croisette3.jpg">
-                            <img src="/assets/images/todo/croisette2.webp">
-                        </div>
                         <br>
                         <h2>Iconic Walk: La Croisette & Old Cannes</h2>
+                        <div class="slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/croisette1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/croisette3.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/croisette2.webp"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
                         <p><b>Suggestions:</b></p>
                         <ul>
                             <li>Walk along <b>La Croisette</b>, the famous seaside boulevard lined with palm trees and luxury hotels. </li>
@@ -29,11 +33,13 @@ lang: en
                         <br>
                         <hr>
                         <br>
-                        <div class="image-row">
-                            <img src="/assets/images/todo/lehrins1.jpg">
-                            <img src="/assets/images/todo/lehrins2.webp">
-                        </div>
                         <h2>Nature Excursion: The Lérins Islands</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/lehrins1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/lehrins2.jpg"></div>
+                            </div>
+                        </div>
                         <p>Just <b>15 minutes by boat</b>, this is one of the best excursions from Cannes.</p>
                         <p>The two main islands:</p>
                         <ul>
@@ -58,13 +64,22 @@ lang: en
                         <hr>
                         <br>
                         <h2>Provençal Village: Saint-Paul-de-Vence</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/vence1.webp"></div>
+                                <div class="slide"><img src="/assets/images/todo/vence2.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/vence3.jpg"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
                         <p>One of the most beautiful villages on the French Riviera, about <b>45 minutes away</b>. Why visit:</p>
                         <ul>
                             <li>Medieval streets</li>
                             <li>Art galleries</li>
                             <li>Beautiful views over the Provençal countryside</li>
                         </ul>
-                        <p>It’s a very <b>romantic and photogenic place</b>, often loved by guests visiting the region for the first time.</p>
+                        <p>It’s a very <b>romantic and photogenic place</b>.</p>
                         <br>
                         <hr>
                         <br>
@@ -136,7 +151,6 @@ lang: en
                     <hr>
                     <br>
                     <h2>Easy Nature Near the Airport: Parc Phoenix</h2>
-                    <p>If some guests have a few hours before their flight, this is perfect.</p>
                     <ul>
                         <li><b>7-hectare botanical park</b> near the airport</li>
                         <li>One of the <b>largest tropical greenhouses in Europe</b></li>
@@ -149,3 +163,5 @@ lang: en
         <details>
     </div>
 </div>
+
+<script src="{{ '/assets/js/slider.js' | relative_url }}"></script>
