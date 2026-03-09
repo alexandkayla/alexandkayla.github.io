@@ -39,6 +39,8 @@ lang: en
                                 <div class="slide"><img src="/assets/images/todo/lehrins1.jpg"></div>
                                 <div class="slide"><img src="/assets/images/todo/lehrins2.jpg"></div>
                             </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
                         </div>
                         <p>Just <b>15 minutes by boat</b>, this is one of the best excursions from Cannes.</p>
                         <p>The two main islands:</p>
@@ -84,6 +86,15 @@ lang: en
                         <hr>
                         <br>
                         <h2>Elegant Coastal Town: Antibes</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/antibe1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/antibe2.jpeg"></div>
+                                <div class="slide"><img src="/assets/images/todo/antibe3.jpg"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
                         <p>Only <b>10–15 minutes by train</b>, making it a perfect short excursion. Things to do:</p>
                         <ul>
                             <li>Wander through the <b>old town</b></li>
@@ -95,6 +106,15 @@ lang: en
                         <hr>
                         <br>
                         <h2>Spectacular Day Trip: Monaco & Èze</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/moneze1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/moneze2.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/moneze3.webp"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
                         <p>Great for guests staying a little longer; A classic itinerary:</p>
                         <ul>
                             <li>The <b>hilltop village of Èze</b></li>
@@ -108,59 +128,95 @@ lang: en
             <summary><h1>🌊 Best Things to Do in Nice (Near the Airport)</h1></summary>
             <div class="accordion-content">
                 <div class="flex-block">
-                    <h2>Iconic Walk: Promenade des Anglais</h2>
-                    <p>The simplest and most emblematic walk in the city.</p>
-                    <p>A <b>7 km seaside boulevard</b> stretching from the airport to the historic center:</p>
-                    <ul>
-                        <li>Pebble beaches</li>
-                        <li>Palm trees</li>
-                        <li>Legendary hotels</li>
-                    </ul>
-                    <p>Ideal for:</p>
-                    <ul>
-                        <li>walking</li>
-                        <li>renting a bike</li>
-                        <li>having a drink by the sea</li>
-                    </ul>
-                    <p><b>Duration:</b> 1–2 hours.</p>
-                    <br>
-                    <hr>
-                    <br>
-                    <h2>Old Town Nice (Vieux-Nice)</h2>
-                    <p>The <b>most charming neighborhood</b> in the city. Things to do:</p>
-                    <ul>
-                        <li>Wander through colorful narrow streets</li>
-                        <li>Visit the <b>Cours Saleya Market</b></li>
-                        <li>Try local specialties such as <b>socca</b> or <b>pan bagnat</b></li>
-                    </ul>
-                    <p>Nice’s city center is also organized around <b>Place Masséna</b>, the large central square near the waterfront and the old town.</p>
-                    <p>💡 Very easy to reach from the airport via <b>direct tram line 2</b>.</p>
-                    <br>
-                    <hr>
-                    <br>
-                    <h2>Spectacular View: Castle Hill (Colline du Château)</h2>
-                    <p>The <b>best viewpoint on the French Riviera</b>. A nearly <b>20-hectare park</b> overlooking the city with:</p>
-                    <ul>
-                        <li>Incredible views over the <b>Bay of Angels</b></li>
-                        <li>Rooftops of Old Nice</li>
-                        <li>A waterfall and gardens</li>
-                    </ul>
-                    <p>💡 <b>Perfect at sunset.</b></p>
-                    <p><b>Duration:</b> ~1 hour.</p>
-                    <br>
-                    <hr>
-                    <br>
-                    <h2>Easy Nature Near the Airport: Parc Phoenix</h2>
-                    <ul>
-                        <li><b>7-hectare botanical park</b> near the airport</li>
-                        <li>One of the <b>largest tropical greenhouses in Europe</b></li>
-                        <li>Flamingos, turtles, Mediterranean gardens</li>
-                    </ul>
-                    <p>💡 Accessible <b>on foot or by tram from the airport</b>.</p>
-                    <p><b>Duration:</b> 1–2 hours.</p>
+                    <div class="left-text">
+                        <h2>Iconic Walk: Promenade des Anglais</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/anglais1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/anglais2.jpg"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
+                        <p>The simplest and most emblematic walk in the city.</p>
+                        <p>A <b>7 km seaside boulevard</b> stretching from the airport to the historic center:</p>
+                        <ul>
+                            <li>Pebble beaches</li>
+                            <li>Palm trees</li>
+                            <li>Legendary hotels</li>
+                        </ul>
+                        <p>Ideal for:</p>
+                        <ul>
+                            <li>walking</li>
+                            <li>renting a bike</li>
+                            <li>having a drink by the sea</li>
+                        </ul>
+                        <p><b>Duration:</b> 1–2 hours.</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <h2>Old Town Nice (Vieux-Nice)</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/vieuxnice1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/vieuxnice2.jpeg"></div>
+                                <div class="slide"><img src="/assets/images/todo/vieuxnice3.jpg"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
+                        <p>The <b>most charming neighborhood</b> in the city. Things to do:</p>
+                        <ul>
+                            <li>Wander through colorful narrow streets</li>
+                            <li>Visit the <b>Cours Saleya Market</b></li>
+                            <li>Try local specialties such as <b>socca</b> or <b>pan bagnat</b></li>
+                        </ul>
+                        <p>Nice’s city center is also organized around <b>Place Masséna</b>, the large central square near the waterfront and the old town.</p>
+                        <p>💡 Very easy to reach from the airport via <b>direct tram line 2</b>.</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <h2>Spectacular View: Castle Hill (Colline du Château)</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/colline1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/colline2.png"></div>
+                                <div class="slide"><img src="/assets/images/todo/colline3.jpg"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
+                        <p>The <b>best viewpoint on the French Riviera</b>. A nearly <b>20-hectare park</b> overlooking the city with:</p>
+                        <ul>
+                            <li>Incredible views over the <b>Bay of Angels</b></li>
+                            <li>Rooftops of Old Nice</li>
+                            <li>A waterfall and gardens</li>
+                        </ul>
+                        <p>💡 <b>Perfect at sunset.</b></p>
+                        <p><b>Duration:</b> ~1 hour.</p>
+                        <br>
+                        <hr>
+                        <br>
+                        <h2>Easy Nature Near the Airport: Parc Phoenix</h2>
+                        <div class="image-row slider-container">
+                            <div class="slider">
+                                <div class="slide"><img src="/assets/images/todo/parc1.jpg"></div>
+                                <div class="slide"><img src="/assets/images/todo/parc2.jpg"></div>
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </div>
+                        <ul>
+                            <li><b>7-hectare botanical park</b> near the airport</li>
+                            <li>One of the <b>largest tropical greenhouses in Europe</b></li>
+                            <li>Flamingos, turtles, Mediterranean gardens</li>
+                        </ul>
+                        <p>💡 Accessible <b>on foot or by tram from the airport</b>.</p>
+                        <p><b>Duration:</b> 1–2 hours.</p>
+                    </div>
                 </div>
             </div>
-        <details>
+        </details>
     </div>
 </div>
 

@@ -1,0 +1,14 @@
+.travel-accordion summary {
+  font-size: 2rem !important;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.travel-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.travel-accordion summary::marker {
+  display: none;
+}
