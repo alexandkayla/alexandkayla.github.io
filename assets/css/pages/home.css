@@ -50,3 +50,12 @@
   text-align: center;
   flex-direction: column !important;
 }
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  text-align: left;
+  line-height: 1.6;
+  color: #a5a5a5;
+}

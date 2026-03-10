@@ -42,7 +42,7 @@ lang: en
   <br>
   <div class="flex-block">
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🎉 Journey 🥂</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/journey" class="links"><h1>🎉 Journey 🥂</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/todo" class="links"><h1>📸 Things to do ⛱️</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>❓ Questions/Answers 🤔</h1></a>
     </div>
