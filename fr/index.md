@@ -36,9 +36,9 @@ lang: fr
   <br>
   <div class="flex-block">
     <div class="vertical-btn">
+      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🛏️ Hotel 🏨</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🎉 Planning 🥂</h1></a>
       <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📸 Choses à faire ⛱️</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>❓ Questions/Réponses 🤔</h1></a>
     </div>
     <div class="right-text">
       <p><i>Nous serons très heureux de vous compter parmi nous</i></p>

@@ -12,7 +12,7 @@ lang: en
       <ul>
         <li><strong>4PM:</strong> Arrival</li>
         <li><strong>7PM:</strong> Welcoming BBQ</li>
-        <li><strong>Night:</strong> Night life in Cannes</li>
+        <li><strong>11PM:</strong> Night life in Cannes</li>
       </ul>
     </div>
     <div class="planning-day">
@@ -28,7 +28,8 @@ lang: en
     <div class="planning-day">
       <h2>Sunday</h2>
       <ul>
-        <li><strong>Pool party:</strong> at White House Cannes</li>
+        <li><strong>10AM</strong>Pool party</li>
+        <li><strong>16PM</strong>Departure</li>
       </ul>
     </div>
   </div>

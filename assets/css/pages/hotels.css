@@ -1,0 +1,23 @@
+.hotels-text {
+    text-align: left;
+    line-height: 2.5rem;
+    color: white;
+    padding: 2rem !important;
+
+    background-color: rgba(49, 49, 49, 0.92);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}   
+
+.two-images {
+  display: flex;
+  gap: 20px; /* espace entre les images */
+}
+
+.two-images img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover; /* garde un bon cadrage */
+  border-radius: 12px; /* optionnel, coins arrondis */
+}
