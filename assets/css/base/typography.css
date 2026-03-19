@@ -2,6 +2,7 @@ body {
   font-family: system-ui, -apple-system, serif;
   color: var(--text-main);
   background: black;
+  overflow-x: hidden;
 }
 
 a {

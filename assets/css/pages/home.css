@@ -2,14 +2,21 @@
   display: grid;
   place-content: center;
   justify-items: center;
-  min-height: 100vh;
   background:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.6)),
     url("/assets/images/home.JPG");
-  background-size: cover;
-  background-position: center;
   padding: 20px;
   font-size: 1.2rem;
+
+  width: 100vw;        /* au lieu de 100% */
+  min-height: 100vh;   /* important */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* Bloc centré simple */
@@ -28,7 +35,7 @@
   justify-content: space-between;
   align-items: center; /* centre verticalement texte/boutons */
   width: 100%; /* ← IMPORTANT */
-  gap: 30rem;
+  gap: 2rem;
 }
 
 .left-text {
@@ -58,4 +65,26 @@
   text-align: left;
   line-height: 1.6;
   color: #a5a5a5;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    font-size: 0.75rem;
+  }
+
+  .flex-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .left-text,
+  .right-text {
+    text-align: center;
+    margin: 0;
+  }
+
+  .right-text {
+    white-space: normal;
+  }
 }
