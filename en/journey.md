@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Journey
+title: Itineraries
 lang: en
 ---
 

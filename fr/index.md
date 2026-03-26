@@ -28,17 +28,17 @@ lang: fr
       <p>A la frontière entre deux mondes.</p>
     </div>
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>✈️ Voyage 🚊</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🏰 Lieu du mariage ⛲</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📩 Contact 💬</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/travel" class="links"><h1>✈️ Voyage 🚊</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/venue" class="links"><h1>🏰 Lieu du mariage ⛲</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/contact" class="links"><h1>📩 Contact 💬</h1></a>
     </div>
   </div>
   <br>
   <div class="flex-block">
     <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🛏️ Hotel 🏨</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>🎉 Planning 🥂</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/incoming" class="links"><h1>📸 Choses à faire ⛱️</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/hotels" class="links"><h1>🛏️ Hotels 🏨</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/itineraries" class="links"><h1>🎉 Itinéraires 🥂</h1></a>
+      <a href="{{ base.url }}/{{ page.lang }}/todo" class="links"><h1>📸 Choses à faire ⛱️</h1></a>
     </div>
     <div class="right-text">
       <p><i>Nous serons très heureux de vous compter parmi nous</i></p>
