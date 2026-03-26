@@ -1,22 +1,37 @@
-.hero-text {
-  max-width: 900px;
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* gauche / centre / droite */
+  gap: 40px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 40px 20px;
+}
+
+.center-column {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  background: rgba(212, 175, 55, 0.15); /* doré transparent */
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2.5rem;
+  max-width: 800px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
 }
 
 .planning-day {
-  background-color: #f8f9fa;
-  border-left: 6px solid #3498db;
-  border-radius: 8px;
-  padding: 1rem 1.5rem;
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  border-left: 4px solid #d4af37; /* doré */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .planning-day h2 {
-  margin-top: 0;
-  margin-bottom: 0.8rem;
-  color: #2c3e50;
+  color: #b8962e;
 }
 
 .planning-day ul {
@@ -38,4 +53,38 @@
   color: #3498db;
   width: 120px;
   display: inline-block;
+}
+
+.side-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.side-card {
+  background: rgba(255, 255, 255, 0.075);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  text-align: left;
+}
+
+.side-card h3 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .side-column {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .side-card {
+    width: 45%;
+  }
 }
