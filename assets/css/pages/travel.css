@@ -71,3 +71,37 @@
 .info-card p {
     margin: 5px 0;
 }
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.link-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    transition: 0.2s ease;
+}
+
+.link-card img {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.link-card:hover {
+    background: #f7f7f7;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .links-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
