@@ -5,79 +5,93 @@ lang: en
 ---
 
 <div class="hero">
-    <div class="hotels-text">
-        <h1>🏨 Hôtels recommandés près de White House Cannes</h1>
-        <br>
-        <hr>
-        <br>
-        <h2>🏨 Best Western (Cannes Centre)</h2>
-        <p>A comfortable and centrally located hotel, ideal for guests who want good value for money while staying close to the city center.</p>
-        <p><strong>Highlights:</strong></p>
-        <ul>
-            <li>Just a few minutes from Cannes train station and downtown</li>
-            <li>Rooftop with a small pool and city views</li>
-            <li>Modern, air-conditioned rooms</li>
-        </ul>
-        <p>A great choice for a practical and accessible stay.</p>
-        <p>💡 About a 10–15 minute walk to La Croisette and the Palais des Festivals.</p>
-        <br>
-        <div class="two-images">
-            <img src="/assets/images/hotels/western1.jpg">
-            <img src="/assets/images/hotels/western2.webp">
-        </div>
-        <br>
-        <hr>
-        <br>
-        <h2>🌴 Mondrian Cannes</h2>
-        <p>A modern and elegant 5-star hotel located directly on Boulevard de la Croisette in Cannes.</p>
-        <p><strong>Highlights:</strong></p>
-        <ul>
-            <li>Direct access to a private beach</li>
-            <li>Large Mediterranean garden (rare on La Croisette)</li>
-            <li>Chic restaurants and bar</li>
-            <li>Exceptional location in the heart of Cannes</li>
-        </ul>
-        <br>
-        <div class="two-images">
-            <img src="/assets/images/hotels/modrian1.jpg">
-            <img src="/assets/images/hotels/modrian2.webp">
-        </div>
-        <br>
-        <hr>
-        <br>
-        <h2>🏨 ibis Cannes Centre</h2>
-        <p>A simple and practical hotel, ideal for guests looking for a more budget-friendly option.</p>
-        <p><strong>Highlights:</strong></p>
-        <ul>
-            <li>Located near Rue d’Antibes (shopping area)</li>
-            <li>Just a few minutes’ walk to La Croisette and the beaches</li>
-            <li>Modern and functional rooms</li>
-        </ul>
-        <p>A good choice for a short stay.</p>
-        <p>💡 Very popular for weekend trips or short visits.</p>
-        <br>
-        <div class="two-images">
-            <img src="/assets/images/hotels/ibis1.jpg">
-            <img src="/assets/images/hotels/ibis2.jpg">
-        </div>
-        <br>
-        <hr>
-        <br>
+  <div class="hotels-container">
+    <h1>🏨 Recommended Hotels near White House Cannes</h1>
+    <br><br>
+    <div class="carousel">
+      <button class="nav left" onclick="prevHotel()">❮</button>
+      <div class="hotel-card active">
         <h2>🏝 Juliana Hotel Cannes</h2>
-        <p>A quiet 4-star hotel located near La Croisette and the beaches.</p>
-        <p><strong>Highlights:</strong></p>
+        <h3>Quiet 4-star hotel near the sea.</h3>
         <ul>
-            <li>Outdoor swimming pool</li>
-            <li>More peaceful residential neighborhood</li>
-            <li>Spacious rooms with balconies</li>
-            <li>Just a few minutes’ walk from the sea</li>
+          <li>Pool</li>
+          <li>Peaceful area</li>
+          <li>Balconies</li>
         </ul>
-        <p>💡 A great compromise for guests who want a comfortable hotel that is slightly less central and more peaceful.</p>
         <div class="two-images">
-            <img src="/assets/images/hotels/juliana1.webp">
-            <img src="/assets/images/hotels/juliana2.jpg">
+          <img src="/assets/images/hotels/juliana1.webp">
+          <img src="/assets/images/hotels/juliana2.jpg">
         </div>
-        <br>
-        <br>
+        <div class="hotel-offer">
+            <p class="offer-text">✨ Exclusive wedding rate</p>
+            <a href="https://app.mews.com/distributor/c2f077ef-c299-436e-8270-ad0200dd8fb1?mewsAvailabilityBlockId=85287789-3abc-4f66-8518-b41a00e45435&mewsStart=2026-10-02&mewsEnd=2026-10-06" target="_blank" class="offer-btn">
+                Unlock special rate
+            </a>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <h2>🏩 Le patio des artistes</h2>
+        <h3>4-star Best Western Premier.</h3>
+        <ul>
+          <li>Bar and patio on panoramic terrace (with Jaccuzi)</li>
+          <li>Combines charm and serenity for a romantic week-end</li>
+          <li>Large range of room categories</li>
+        </ul>
+        <div class="two-images">
+          <img src="/assets/images/hotels/patio0.webp">
+          <img src="/assets/images/hotels/patio1.webp">
+        </div>
+        <div class="hotel-offer">
+            <p class="offer-text">✨ Exclusive wedding rate</p>
+            <a href="https://www.secure-hotel-booking.com/d-edge/Best-Western-Le-Patio-s-Artistes-Reservation/29I3/en-US/DateSelection" target="_blank" class="offer-btn">
+                Using promotion code: KAYLA
+            </a>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <h2>🏨 Best Western (Cannes Centre)</h2>
+        <h3>A comfortable and centrally located.</h3>
+        <ul>
+          <li>Close to train station and downtown</li>
+          <li>Rooftop with pool</li>
+          <li>Modern rooms</li>
+        </ul>
+        <p>💡 10–15 min walk to La Croisette</p>
+        <div class="two-images">
+          <img src="/assets/images/hotels/western1.jpg">
+          <img src="/assets/images/hotels/western2.webp">
+        </div>
+      </div>
+      <div class="hotel-card">
+        <h2>🌴 Mondrian Cannes</h2>
+        <h3>Elegant 5-star hotel on La Croisette.</h3>
+        <ul>
+          <li>Private beach access</li>
+          <li>Mediterranean garden</li>
+          <li>Restaurants & bar</li>
+        </ul>
+        <div class="two-images">
+          <img src="/assets/images/hotels/modrian1.jpg">
+          <img src="/assets/images/hotels/modrian2.webp">
+        </div>
+      </div>
+      <div class="hotel-card">
+        <h2>🏨 ibis Cannes Centre</h2>
+        <h3>Simple and budget-friendly option.</h3>
+        <ul>
+          <li>Near shopping area</li>
+          <li>Close to beach</li>
+          <li>Functional rooms</li>
+        </ul>
+        <p>💡 Ideal for short stays</p>
+        <div class="two-images">
+          <img src="/assets/images/hotels/ibis1.jpg">
+          <img src="/assets/images/hotels/ibis2.jpg">
+        </div>
+      </div>
+      <button class="nav right" onclick="nextHotel()">❯</button>
+    </div>
   </div>
 </div>
+
+<script src="{{ '/assets/js/hotels.js' | relative_url }}"></script>

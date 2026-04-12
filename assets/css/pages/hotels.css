@@ -1,24 +1,114 @@
-.hotels-text {
-    width: 100vw;
-    text-align: left;
-    line-height: 2.5rem;
-    color: white;
-    padding: 2rem !important;
+.hotels-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
 
-    background-color: rgba(49, 49, 49, 0.92);
-    border-radius: 14px;
-    padding: 24px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-}   
+.carousel {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
+.hotel-card {
+  display: none;
+  width: 100%;
+  max-width: 700px; /* 🔥 limite la taille */
+  background: rgba(49, 49, 49, 0.92);
+  padding: 1.8rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  animation: fade 0.4s ease;
+}
+
+.hotel-card h2,h3 {
+  text-align:center;
+}
+
+.hotel-card.active {
+  display: block;
+}
+
+/* boutons maintenant DANS la card zone */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.nav:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.nav.left {
+  left: 10px; /* 🔥 plus de dépassement */
+}
+
+.nav.right {
+  right: 10px;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateX(15px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* images mieux équilibrées */
 .two-images {
   display: flex;
-  gap: 20px; /* espace entre les images */
+  gap: 12px;
+  margin-top: 1rem;
 }
 
 .two-images img {
   width: 50%;
-  height: 300px;
-  object-fit: cover; /* garde un bon cadrage */
-  border-radius: 12px; /* optionnel, coins arrondis */
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hotel-offer {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2a2a2a, #1c1c1c);
+  border: 1px solid rgba(212, 175, 55, 0.4); /* doré subtil */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-text {
+  color: #d4af37; /* gold */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* 🔥 bouton premium */
+.offer-btn {
+  text-decoration: none;
+  background: linear-gradient(135deg, #d4af37, #f5e6a8);
+  color: black;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 999px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(212,175,55,0.3);
+}
+
+.offer-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(212,175,55,0.5);
+  background: linear-gradient(135deg, #f5e6a8, #d4af37);
 }
