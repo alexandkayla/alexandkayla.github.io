@@ -8,7 +8,7 @@ lang: en
   <div class="hotels-container">
     <h1>🏨 Recommended Hotels near White House Cannes</h1>
     <br><br>
-    <div class="carousel">
+    <div class="carousel-hotels">
       <button class="nav left" onclick="prevHotel()">❮</button>
       <div class="hotel-card active">
         <h2>🏝 Juliana Hotel Cannes</h2>
