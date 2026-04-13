@@ -1,51 +1,72 @@
 ---
 layout: default
-title: Acceuil
+title: Accueil
 lang: fr
 ---
 
 <div class="hero">
-  <h1>✨ Un amour sans frontières</h1>
-  <br>
-  <h2>Bienvenue • Bemvindo • Welcome • Bienvenido</h2>
-  <br>
-  <div class="center-block">
-    <p><i>La mesure de l’amour,</i></p>
-    <p><i>c’est d’aimer sans mesure.</i></p>
+  <div class="carousel">
+    <!-- SLIDE 1 -->
+    <div class="slide">
+      <div class="slide-content">
+        <h1>✨ Un amour sans frontières</h1>
+        <br>
+        <h2>Bienvenue • Bem-vindo • Welcome • Bienvenido</h2>
+        <br>
+        <div class="center-block">
+          <p><i>La bonne personne,</i></p>
+          <p><i>au bon moment.</i></p>
+          <p><i>Peut-être avec le mauvais scénario,</i></p>
+          <p><i>mais assurément sur la bonne trajectoire.</i></p>
+        </div>
+        <h3>Nous vous invitons à célébrer notre mariage sur la Côte d’Azur.</h3>
+        <br>
+        <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">RSVP</a>
+        <br>
+        <br>
+        <h3>Rejoignez-nous à Cannes (2–4 octobre 2026)</h3>
+      </div>
+    </div>
+    <!-- SLIDE 2 -->
+    <div class="slide">
+      <div class="slide-content">
+        <div class="flex-block">
+          <div class="left-text">
+            <p>C’est bien plus qu’un mariage destination.</p>
+            <p>C’est un hommage à <b>l’héritage</b>.</p>
+            <p>À la <b>résilience</b>.</p>
+            <p>À la <b>foi</b>.</p>
+            <p>À un <b>amour</b> qui a traversé les frontières.</p>
+          </div>
+          <div class="vertical-btn">
+            <a href="{{ base.url }}/{{ page.lang }}/travel">✈️ Voyage</a>
+            <a href="{{ base.url }}/{{ page.lang }}/venue">🏰 Lieu</a>
+            <a href="{{ base.url }}/{{ page.lang }}/contact">📩 Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SLIDE 3 -->
+    <div class="slide">
+      <div class="slide-content">
+        <div class="flex-block">
+          <div class="vertical-btn">
+            <a href="{{ base.url }}/{{ page.lang }}/hotels">🛏️ Hôtels</a>
+            <a href="{{ base.url }}/{{ page.lang }}/itineraries">🎉 Itinéraires</a>
+            <a href="{{ base.url }}/{{ page.lang }}/todo">📸 Choses à faire</a>
+          </div>
+          <div class="right-text">
+            <p><i>Votre présence compterait énormément pour nous.</i></p>
+            <p><i>Aucune pression — chaque réponse est respectée.</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <br>
-  <h3>Nous vous invitons à célébrer notre mariage sur la Côte d'Azur!</h3>
-  <br>
-  <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">Répondre ici</a>
-  <br>
-  <h3>Rejoignez-nous à Cannes du 2 au 4 octobre 2026</h3>
-  <h3>Pour un week-end de beauté, de sens et de magie</h3>
-  <h3><i>Confirmez avant le 08 Juin!</i></h3>
-  <br>
-  <div class="flex-block">
-    <div class="left-text">
-      <p>C'est bien plus qu'un mariage, c'est une destination</p>
-      <p>A la frontière entre deux mondes.</p>
-    </div>
-    <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/travel" class="links"><h1>✈️ Voyage 🚊</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/venue" class="links"><h1>🏰 Lieu du mariage ⛲</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/contact" class="links"><h1>📩 Contact 💬</h1></a>
-    </div>
-  </div>
-  <br>
-  <div class="flex-block">
-    <div class="vertical-btn">
-      <a href="{{ base.url }}/{{ page.lang }}/hotels" class="links"><h1>🛏️ Hotels 🏨</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/itineraries" class="links"><h1>🎉 Itinéraires 🥂</h1></a>
-      <a href="{{ base.url }}/{{ page.lang }}/todo" class="links"><h1>📸 Choses à faire ⛱️</h1></a>
-    </div>
-    <div class="right-text">
-      <p><i>Nous serons très heureux de vous compter parmi nous</i></p>
-      <p><i>Pour ceux qui ne pourraient pas nous rejoindre à cette date</i></p>
-      <p><i>Une célébration sera organisée aux Etats-Unis dans un futur proche</i></p>
-      <p><i>Des bisous, paix sur vous et vos proches.</i></p>
-    </div>
-  </div>
-  <br>
+  <!-- NAV -->
+  <div class="nav left" onclick="moveSlide(-1)">❮</div>
+  <div class="nav right" onclick="moveSlide(1)">❯</div>
+
 </div>
+
+<script src="{{ '/assets/js/home.js' | relative_url }}"></script>
