@@ -3,7 +3,7 @@ en:
   travel: "Travel"
   venue: "Venue"
   contact: "Contact"
-  itineraries: "Itineraries"
+  planning: "Planning"
   todo: "Things to do"
   hotels: "Hotels"
 
@@ -12,6 +12,6 @@ fr:
   travel: "Voyage"
   venue: "Lieu"
   contact: "Contact"
-  itineraries: "Itineraires"
+  planning: "Planning"
   todo: "À faire"
   hotels: "Hôtels"

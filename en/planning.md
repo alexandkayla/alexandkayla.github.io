@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Itineraries
+title: Planning
 lang: en
 ---
 

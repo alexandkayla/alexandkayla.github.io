@@ -56,7 +56,7 @@ lang: fr
         <div class="flex-block">
           <div class="vertical-btn">
             <a href="{{ base.url }}/{{ page.lang }}/hotels">🛏️ Hôtels</a>
-            <a href="{{ base.url }}/{{ page.lang }}/itineraries">🎉 Itinéraires</a>
+            <a href="{{ base.url }}/{{ page.lang }}/planning">🎉 Planning</a>
             <a href="{{ base.url }}/{{ page.lang }}/todo">📸 Choses à faire</a>
           </div>
           <div class="right-text">
