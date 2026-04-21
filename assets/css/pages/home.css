@@ -89,3 +89,31 @@
 
 .nav.left { left: 20px; }
 .nav.right { right: 20px; }
+
+@media (max-width: 768px) {
+  .flex-block {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-text,
+  .right-text {
+    text-align: center;
+  }
+
+  .vertical-btn {
+    font-size: 1.5rem;
+  }
+
+  .slide {
+    padding: 0px;
+  }
+
+  .slide-content {
+    max-width: 900px;
+  }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+}

@@ -9,7 +9,10 @@ lang: fr
     <!-- SLIDE 1 -->
     <div class="slide">
       <div class="slide-content">
-        <h1>✨ Un amour sans frontières</h1>
+        <h1>Alexandre et Kayla</h1>
+        <h1>Dos Santos</h1>
+        <br>
+        <h2>✨ Un amour sans frontières</h2>
         <br>
         <h2>Bienvenue • Bem-vindo • Welcome • Bienvenido</h2>
         <br>
@@ -23,8 +26,9 @@ lang: fr
         <br>
         <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">RSVP</a>
         <br>
-        <br>
-        <h3>Rejoignez-nous à Cannes (2–4 octobre 2026)</h3>
+        <h3>Rejoignez-nous à Cannes du Vendredi 2...</h3>
+        <h3>... au Dimanche 4 octobre 2026</h3>
+        <i>La célébration aura lieu le Samedi 3 Octobre</i>
       </div>
     </div>
     <!-- SLIDE 2 -->

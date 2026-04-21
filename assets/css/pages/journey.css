@@ -22,7 +22,7 @@
 }
 
 .planning-day {
-  background: white;
+  background: rgba(255, 255, 255, 0.075);
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
   margin-bottom: 1.5rem;

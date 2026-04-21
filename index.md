@@ -9,6 +9,9 @@ lang: en
     <!-- SLIDE 1 -->
     <div class="slide">
       <div class="slide-content">
+        <h1>Alexandre & Kayla</h1>
+        <h1>Dos Santos</h1>
+        <br>
         <h1>✨ A Love Without Borders</h1>
         <br>
         <h2>Bienvenue • Bemvindo • Welcome • Bienvenido</h2>
@@ -24,7 +27,9 @@ lang: en
         <a href="{{ base.url }}/{{ page.lang }}/form" class="participate">RSVP</a>
         <br>
         <br>
-        <h3>Join us in Cannes (Oct 2–4, 2026)</h3>
+        <h3>Join us in Cannes from the Friday 2...</h3>
+        <h3>... to the Sunday 4 of Octobre 2026</h3>
+        <i>The celebration will take place on the saturday 3</i>
       </div>
     </div>
     <!-- SLIDE 2 -->
